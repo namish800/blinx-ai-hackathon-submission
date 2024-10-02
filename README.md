@@ -1,11 +1,12 @@
-﻿# blinx-ai-hackathon-submission
+## Blinx - Hackathon Submission
 
-This is the repo created just for the submission of the hackathon. Devfolio portal allows only submission of one github url. But we have separate repos for frontend and backend.
-Please find the repo links below:
-1. https://github.com/namish800/blinx
-2. https://github.com/namish800/blinx-ui
+This repository is created for the hackathon submission via the Devfolio portal, which only allows one GitHub URL. However, our project has separate repositories for the frontend and backend components.
 
+Please find the individual repo links below:
 
-The source code for the same can be found in this repo as well.
-https://github.com/namish800/blinx-ai-hackathon-submission/tree/main/blinx-backend contains all the code for fast API backend and Langgraph agents
-https://github.com/namish800/blinx-ai-hackathon-submission/tree/main/blinx-ui contains all the code for frontend(next.js)
+- [Blinx Backend](https://github.com/namish800/blinx): Contains the FastAPI backend and Langgraph agents.
+- [Blinx Frontend](https://github.com/namish800/blinx-ui): Contains the frontend code built with Next.js.
+
+For convenience, the source code for both frontend and backend can also be found in this repository under the following paths:
+- Backend: [blinx-backend](https://github.com/namish800/blinx-ai-hackathon-submission/tree/main/blinx-backend)
+- Frontend: [blinx-ui](https://github.com/namish800/blinx-ai-hackathon-submission/tree/main/blinx-ui)
