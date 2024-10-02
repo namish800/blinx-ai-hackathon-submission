@@ -1,0 +1,29 @@
+.desktop-menu-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: #000;
+    height: 100vh;
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 5px 15px; 
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+}
+
+
+.desktop-menu-link{
+    color: #fff;
+    text-align: center;
+    font-family: var(--font-poppins);
+    padding: 15px;
+    transition: 0.5s all;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 180px;
+
+    &.active{
+        background: #fff;
+        color: #000;
+    }
+}

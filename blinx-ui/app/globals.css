@@ -1,0 +1,132 @@
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  /* --font-poppins: 'Poppins', sans-serif; */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.poppins{
+  font-family: var(--font-poppins);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blinx-app-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+
+.appInput{
+  padding: 20px 5px;
+  width: 300px;
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-poppinss);
+  margin: 30px 0;
+}
+
+.appInput:focus-visible{
+  outline: 0px;
+} 
+
+.appButton{
+  padding: 15px 30px;
+  background: #fff;
+  border-radius: 10px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  transition: 0.5s all;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.appButton.disabled{
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0,0,0,0.8);
+  cursor: unset;
+}
+
+.appButton.disabled:hover{
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow:  0 0 0;
+  color: rgba(0,0,0,0.8);
+}
+
+.appButton:hover{
+  background: #000;
+  color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+
+.appTextArea{
+  width: 100%;
+  background: #000;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+  padding: 20px 5px;
+  color: #fff;
+  font-family: var(--font-poppins);
+}
+
+.appTextArea:focus-visible{
+  outline: 0px;
+} 
+
+
+.loadingWrapper{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-poppins);
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

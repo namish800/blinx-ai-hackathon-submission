@@ -1,0 +1,49 @@
+.landingPage{
+  flex-grow: 1;
+  /* display: ; */
+  padding: 60px;
+}
+
+
+.landingBanner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  /* background: rgba(255, 255, 255, 0.5); */
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.brandButton{
+  padding: 15px 30px;
+  background: #fff;
+  border-radius: 10px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  transition: 0.5s all;
+}
+
+.brandButton:hover{
+  background: #000;
+  color: #fff;
+}
+
+
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert();
+  }
+}
